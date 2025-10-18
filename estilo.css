@@ -3,11 +3,17 @@
     background-size: cover;
 
 }
+#seccion0{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+}
 #div1{
     background-color: rgba(255,255,255, o.2);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     color: white;
-
+    text-align: center; 
 }
 form{    background-color: rgba(255,255,255, o.5);
          backdrop-filter: blur(5px);
@@ -19,14 +25,12 @@ form{    background-color: rgba(255,255,255, o.5);
          padding: 30px;
          padding-top: 50px;
          justify-content: center;
-         /*align-items: center;*/
          gap: 20px;
          position: relative;
          left: 500px;
         }
-        h1 , h2 {text-align: center; }
 
-    .uno{ 
+.uno{ 
          color: white;
          background-color: rgba(255,255,255, o.2);
          border: 1px solid rgb(252, 251, 251);
@@ -36,38 +40,58 @@ form{    background-color: rgba(255,255,255, o.5);
          align-items: baseline;
          gap:5px;
        }
-    input, select{
+input, select{
              width: 60%;
              background-color: rgba(255,255,255, o.4);
              backdrop-filter: blur(5px);
              border: 1px solid rgb(252, 251, 251);
         }
-    .send{
+.send{
             display: flex;
-            justify-content: center;
+            justify-content:center;
         }
-    form > svg{
+form > svg{
             border-radius: 5px;
             position:absolute;
             top: 5px;
             right: 5px;
           }
-    button{
+button{
             cursor: pointer;
            display: flex;
            justify-content: center;
            align-items: center;
            gap: 10px;
         }
-    button>svg{color: rgb(169, 98, 240);}
-
-
-    .general{
+button>svg{
+    color: rgb(169, 98, 240);
+        }
+.general{
          display: flex;
          justify-content: space-between;
 
     }
-  
-    h2 {
+h2 {
          font-family:Arial, Helvetica, sans-serif;
+    }
+    #seccion1{
+       background:url(imagenes/aeoniums.jpg);
+        background-size: cover;
+    }
+    #seccion2{
+       background:url(imagenes/crassula\ en\ flor.jpg);
+        background-size: cover;
+    }
+    #caja1{
+         background:url(imagenes/mangabe.jpg);
+        background-size: cover;
+    }
+    #caja2{
+         background:url(imagenes/cactus\ en\ flor.jpg);
+        background-size: cover;
+    }
+    #caja3{
+         background:url(imagenes/dickias.jpg);
+        background-size: cover;
+      
     }
