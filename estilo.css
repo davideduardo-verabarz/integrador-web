@@ -1,6 +1,7 @@
 #bodyform{
     background:url(imagenes/gazanias-blancas.jpg) ;
     background-size: cover;
+
 }
 #div1{
     background-color: rgba(255,255,255, o.2);
@@ -21,26 +22,29 @@ form{    background-color: rgba(255,255,255, o.5);
          /*align-items: center;*/
          gap: 20px;
          position: relative;
+         left: 500px;
         }
+        h1 , h2 {text-align: center; }
 
     .uno{ 
-        color: white;
+         color: white;
          background-color: rgba(255,255,255, o.2);
          border: 1px solid rgb(252, 251, 251);
          border-radius: 5px;
          display: flex;
          justify-content: space-between;
          align-items: baseline;
+         gap:5px;
        }
     input, select{
-            width: 50%;
+             width: 60%;
              background-color: rgba(255,255,255, o.4);
-              backdrop-filter: blur(5px);
+             backdrop-filter: blur(5px);
+             border: 1px solid rgb(252, 251, 251);
         }
     .send{
             display: flex;
             justify-content: center;
-            gap: 20px;
         }
     form > svg{
             border-radius: 5px;
@@ -55,12 +59,12 @@ form{    background-color: rgba(255,255,255, o.5);
            align-items: center;
            gap: 10px;
         }
-    button>svg{color: rgb(249, 248, 250);}
+    button>svg{color: rgb(169, 98, 240);}
 
 
     .general{
          display: flex;
-  justify-content: space-between;
+         justify-content: space-between;
 
     }
   
