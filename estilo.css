@@ -73,11 +73,11 @@ button>svg{
         text-align: center; 
 }
 
-/* Carrousel  */
+/*  Pagina principal */
 #contenedor {
     width: 1100px ; 
     margin: 0px auto; 
-    /* border: 1px solid rgb(27, 26, 26); */
+    
 }
 
 header { 
@@ -92,14 +92,13 @@ header {
 }
 nav {
     display: flex;
-    justify-content: center;  /* centra los links */
+    justify-content: center; 
     background-color: black;
-    padding: 15px 0;          /* altura decente */
+    padding: 15px 0;         
 }
-
 nav ul {
     display: flex;
-    gap: 20px;                /* separación entre links */
+    gap: 20px;               
     padding: 0;
     margin: 0;
     list-style: none;
@@ -118,12 +117,12 @@ nav ul li a:hover {
 
 
 #contenido-caja {
-    background: #f8f8f8;           /* fondo claro y limpio */
-    border-radius: 12px;            /* esquinas redondeadas */
+    background: #f8f8f8;           
+    border-radius: 12px;            
     padding: 30px;
     margin: 40px auto;
     max-width: 1000px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* sombra sutil */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); 
     font-family: 'Roboto', Arial, sans-serif;
     color: #333;
 }
@@ -131,22 +130,22 @@ nav ul li a:hover {
     display: flex;
     align-items: flex-start;
     gap: 30px;
-    flex-wrap: nowrap; /* que no se caiga todo */
+    flex-wrap: nowrap; 
 }
 
 #contenido p {
-    flex: 2;      /* ocupa 2 partes del espacio */
-    min-width: 0; /* importante para que no haga overflow */
+    flex: 2;      
+    min-width: 0; 
 }
 
 #imagenes-lado {
-    flex: 1;      /* ocupa 1 parte del espacio */
+    flex: 1;      
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 #imagenes-lado img {
-    width: 320px;   /* más grandes y profesionales */
+    width: 320px;   
     height: auto;
     border-radius: 10px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
@@ -154,7 +153,6 @@ nav ul li a:hover {
 }
 
 #imagenes-lado img:hover {
-    transform: scale(1.05); /* efecto hover elegante */
+    transform: scale(1.05); 
 }
 
-/* carrousel */
