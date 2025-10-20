@@ -95,3 +95,86 @@ h2 {
         background-size: cover;
       
     }
+/* Carrousel  */
+#contenedor {
+    width: 1100px ; 
+    margin: 0px auto; 
+    /* border: 1px solid rgb(27, 26, 26); */
+}
+
+header { 
+ background:url(https://tse1.mm.bing.net/th/id/OIP.Mru1kqQ6pmt6jJ1QVByV9gHaEP?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3) ;
+ height: 0px auto;
+ border:0px solid black;
+ margin: 0px;
+ text-align: center;
+ line-height: 100px;
+ color: white;
+
+}
+nav {
+    display: flex;
+    justify-content: center;  /* centra los links */
+    background-color: black;
+    padding: 15px 0;          /* altura decente */
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;                /* separación entre links */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+#contenido-caja {
+    background: #f8f8f8;           /* fondo claro y limpio */
+    border-radius: 12px;            /* esquinas redondeadas */
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 1000px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1); /* sombra sutil */
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333;
+}
+#contenido {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: nowrap; /* que no se caiga todo */
+}
+
+#contenido p {
+    flex: 2;      /* ocupa 2 partes del espacio */
+    min-width: 0; /* importante para que no haga overflow */
+}
+
+#imagenes-lado {
+    flex: 1;      /* ocupa 1 parte del espacio */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#imagenes-lado img {
+    width: 320px;   /* más grandes y profesionales */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+#imagenes-lado img:hover {
+    transform: scale(1.05); /* efecto hover elegante */
+}
