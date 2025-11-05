@@ -58,23 +58,18 @@ form{    background-color: rgba(255, 255, 255, 0.3);
             justify-content:center;
              gap: 10px;
         }
-
 button{
             cursor: pointer;
            display: flex;
            justify-content: center;
            align-items: center;
-           gap: 10px;
+           gap: 10px; 
+           text-decoration: none;
         }
 button>svg{
-    color: rgb(169, 98, 240);
+    color: rgb(142, 69, 214);
         }
-#vuelta{
-        background-color: rgba(255,255,255, o.2);
-        backdrop-filter: blur(5px);
-        color: white;
-        text-align: center; 
-}
+
 
 /*  Pagina principal */
 #contenedor {
