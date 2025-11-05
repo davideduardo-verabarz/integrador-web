@@ -1,61 +1,64 @@
 #bodyform{
-    background:url(imagenes/gazanias-blancas.jpg) ;
-    background-size: cover;
+    background: url("../imagenes/gazanias-blancas.jpg") center/cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
 
-}
-#seccion0{
-    color:white;
-    display: flex;
-    flex-direction: column;
-    margin:0px;
-}
 #div1{
-    background-color: rgba(255,255,255, o.2);
-    backdrop-filter: blur(5px);
-    color: white;
-    text-align: center; 
+   background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
-form{    background-color: rgba(255,255,255, o.5);
-         backdrop-filter: blur(5px);
-         width: 30%;
-         display:flex;
-         flex-direction: column;
-         border: 2px solid rgba(255, 255, 255, 0.2);
-         border-radius: 15px;
-         padding: 30px;
-         padding-top: 50px;
-         justify-content: center;
-         gap: 20px;
-         position: relative;
-         left: 500px;
-        }
 
-.uno{ 
-         color: white;
-         background-color: rgba(255,255,255, o.2);
-         border: 1px solid rgb(252, 251, 251);
-         border-radius: 5px;
-         display: flex;
-         justify-content: space-between;
-         align-items: baseline;
-         gap:5px;
-       }
-input, select{
-             width: 60%;
-             background-color: rgba(255,255,255, o.4);
-             backdrop-filter: blur(5px);
-             border: 1px solid rgb(252, 251, 251);
+form{    background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  width: 700px;
+  margin: 50px auto; 
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 40px;
+  gap: 15px;
+  color: rgb(121, 79, 79);
         }
+.fila {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+
+.fila label {
+  width: 150px;
+  text-align: right;
+  color: black;
+  font-weight: bold;
+}
+
+/* Las cajas de texto */
+.fila input, 
+.fila select {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(252, 251, 251);
+  padding: 6px;
+  border-radius: 5px;
+}
 .send{
             display: flex;
             justify-content:center;
+             gap: 10px;
         }
-form > svg{
-            border-radius: 5px;
-            position:absolute;
-            top: 5px;
-            right: 5px;
-          }
+
 button{
             cursor: pointer;
            display: flex;
@@ -81,7 +84,7 @@ button>svg{
 }
 
 header { 
- background:url(https://tse1.mm.bing.net/th/id/OIP.Mru1kqQ6pmt6jJ1QVByV9gHaEP?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3) ;
+ background:url("../imagenes/ImagenPP.webp") ;
  height: 0px auto;
  border:0px solid black;
  margin: 0px;
