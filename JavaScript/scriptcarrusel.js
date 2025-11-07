@@ -1,32 +1,32 @@
 /* js carrousel */
 let imagenes=[
    { 
-    "url": "../imagenes/crasas/aeoniums.jpg",
+    "url": "./imagenes/crasas/aeoniums.jpg",
      "nombre":"Aeonim arboreum sp",
      "descripcion":"Suculenta de crecimiento muy rapido y facil multiplicacion",
    },
    {
-    "url": "../imagenes/crasas/mangabe.jpg",
+    "url": "./imagenes/crasas/mangabe.jpg",
      "nombre":"Mangabe kaleidoscope",
      "descripcion":"Exotica planta tricolor, originaria de mexico",
    },
    {
-    "url": "../imagenes/crasas/echeveria gila.jpg",
+    "url": "./imagenes/crasas/echeveria gila.jpg",
      "nombre":"Echeveria Gila",
      "descripcion":"roseta glauca y de gran porte",
    },
    {
-    "url": "../imagenes/crasas/cotyledon.jpg",
+    "url": "./imagenes/crasas/cotyledon.jpg",
      "nombre":"Kalanchoe thirsiflora",
      "descripcion":"Degran porte y color invernal rojiso",
    },
    {
-    "url": "../imagenes/crasas/aloe sp 2.jpg",
+    "url": "./imagenes/crasas/aloe sp 2.jpg",
      "nombre":"Aloes striata",
      "descripcion":" Aloe desertica y de floracion roja",
    },
    {
-    "url": "../imagenes/crasas/crasas varias.jpg",
+    "url": "./imagenes/crasas/crasas varias.jpg",
      "nombre":"Paisaje de suculentas",
      "descripcion":"Realizamos el diseño de tu jardin",
    },
