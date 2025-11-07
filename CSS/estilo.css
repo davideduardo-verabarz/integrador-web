@@ -153,3 +153,17 @@ nav ul li a:hover {
 #imagenes-lado img:hover {
     transform: scale(1.05); 
 }
+  #mensajen{
+      background-color: rgb(255, 255, 255);
+      color: black;
+           padding: 0.5rem;
+      margin-top: 1rem;
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 0.5rem;
+      
+    }
+
+
