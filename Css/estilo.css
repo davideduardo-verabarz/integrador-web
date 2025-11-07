@@ -265,13 +265,14 @@ nav ul li a:hover {
 }
 .titulo {
   text-align: center;
-  margin: 5%;
+  margin: 2%;
 }
 .rectangulo{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5%;
 }
 
 .contenedores{
@@ -285,7 +286,7 @@ nav ul li a:hover {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  display: block;
+ 
   border-radius: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
