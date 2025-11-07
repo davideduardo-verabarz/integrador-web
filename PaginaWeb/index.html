@@ -18,36 +18,61 @@ productos/
         
 
         <div id="contenedor">
-  <header>
-    <h1>Vivero Xero</h1>
-  </header>
+          <header>
+            <h1>Vivero Xero</h1>
+         </header>
 
-  <nav>
-    <ul>
-      <li><a href="formulario.html">Registrarse</a></li>
-      <li><a href="Articulo.html">Artículo</a></li>
-    
-    </ul>
-  </nav>
-</div>
+          <nav>
+            <ul>
+              <li><a href="formulario.html">Registrarse</a></li>
+              <li><a href="Articulo.html">Artículo</a></li>
+            </ul>
+          </nav>
+        </div>
 
-      
-    <div id="contenido-caja">
-    <div id="contenido">
-        <p id="quienes-somos">
-            Desde 1980, nuestra familia cultiva vida verde en San Luis.<br><br>
-            Lo que comenzó como un pequeño vivero familiar se transformó con los años en un espacio lleno de pasión por las plantas y respeto por la naturaleza.<br><br>
-            Cada hoja, flor y árbol que crece aquí es resultado de dedicación, conocimiento y amor por el medio ambiente.<br><br>
-            En <strong>Vivero San Luis</strong> combinamos tradición y modernidad: ofrecemos productos de alta calidad, asesoramiento experto y un espacio pensado para que cada visitante se conecte con la naturaleza.<br><br>
-            Nuestra misión es acompañarte en cada proyecto verde, desde el jardín de tu hogar hasta grandes espacios de cultivo, transmitiendo siempre nuestra experiencia y entusiasmo por la vida vegetal.<br><br>
-            Creemos que cada planta tiene una historia y nuestro compromiso es ayudar a que florezca plenamente.
-        </p>
-
-            <div id="imagenes-lado">
-                <img src= "../imagenes/cactus en flor.jpg" alt="Planta 1">
-                <img src="../imagenes/crassula en flor.jpg" alt="Planta 2">
+  
+        <div id="contenido-caja">
+           <div id="contenido">
+              <p id="quienes-somos">
+                Desde 1980, nuestra familia cultiva vida verde en San Luis.<br><br>
+                Lo que comenzó como un pequeño vivero familiar se transformó con los años en un espacio lleno de pasión por las plantas y respeto por la naturaleza.<br><br>
+                Cada hoja, flor y árbol que crece aquí es resultado de dedicación, conocimiento y amor por el medio ambiente.<br><br>
+                En <strong>Vivero San Luis</strong> combinamos tradición y modernidad: ofrecemos productos de alta calidad, asesoramiento experto y un espacio pensado para que cada visitante se conecte con la naturaleza.<br><br>
+                Nuestra misión es acompañarte en cada proyecto verde, desde el jardín de tu hogar hasta grandes espacios de cultivo, transmitiendo siempre nuestra experiencia y entusiasmo por la vida vegetal.<br><br>
+                Creemos que cada planta tiene una historia y nuestro compromiso es ayudar a que florezca plenamente.
+              </p>
+              <div id="imagenes-lado">
+                 <img src= "../imagenes/cactus en flor.jpg" alt="Planta 1">
+                 <img src="../imagenes/crassula en flor.jpg" alt="Planta 2">
+              </div>
             </div>
         </div>
-        </div>
+      <div class="divcarrusel"> <!--division carrousel -->
+        <div class="carrousel">
+          <div class="izquierda">
+            <svg id="atras" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+            </svg>
+          </div>
+   
+          <div class="imagenes">
+            <div id="img">
+                <img class="imagi" src="../imagenes/crasas/agaves.jpg" alt="imagen1" >
+            </div>
+            <div id="textoimg" class="textoclass">
+               <h4>Agave parryi. </h4>
+               <p>Originaria del desierto de arizona</p>
+            </div>
+          </div>
+          <div  id="adelante" class="derecha">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+          </div>
+       </div>
+      </div>
+       <div id="puntos" class="puntos"></div>
+      <script src="../JavaScript/Script.js"></script>
     </body>
     
+</html>
