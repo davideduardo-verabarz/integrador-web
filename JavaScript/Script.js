@@ -60,4 +60,11 @@ if (valido) {
   exito.style.color = "green";
   form.appendChild(exito);
 }
-} );
+
+if (valido) {
+  const exito = document.createElement("p");
+  exito.textContent = `Usuario ${user.value} con email ${email.value} creado con éxito!`;
+  exito.id = "mensajen";
+  exito.style.color = "green";
+  form.appendChild(exito);
+}} );
